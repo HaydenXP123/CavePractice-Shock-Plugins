@@ -1,0 +1,56 @@
+---
+guest:
+  chat: "§7{player}§8: §f{msg}"
+  nametag: ""
+  permissions:
+    - pocketmine.command.tell
+youtube:
+  chat: "§7[§cYou§fTube§7] §c{player}§8: §f{msg}"
+  nametag: ""
+  permissions:
+    - pocketmine.command.tell
+partner:
+  chat: "§7[§5Partner§7] §d{player}§8: §f{msg}"
+  nametag: ""
+  permissions:
+    - pocketmine.command.tell
+famous:
+  chat: "§7[§9Famous§7] §b{player}§8: §f{msg}"
+  nametag: ""
+  permissions:
+    - pocketmine.command.tell
+builder:
+  chat: "§7[§eBuilder§7] §6{player}§8: §f{msg}"
+  nametag: ""
+  permissions:
+    - pocketmine.command.tell
+mod:
+  chat: "§7[§dModerator§7] §d{player}§8: §f{msg}"
+  nametag: ""
+  permissions:
+    - pocketmine.broadcast.admin
+    - pocketmine.command
+    - shock.command.world
+    - shock.command.freeze
+    - shock.command.globalmute
+    - shock.staff.report
+admin:
+  chat: "§7[§bAdmin§7] §b{player}§8: §f{msg}"
+  nametag: ""
+  permissions:
+    - pocketmine.broadcast.admin
+    - pocketmine.command
+    - shock
+developer:
+  chat: "§7[§aDev§7] §2{player}§8: §f{msg}"
+  nametag: ""
+  permissions:
+    - pocketmine
+    - shock
+owner:
+  chat: "§7[§4Owner§7] §4{player}§8: §f{msg}"
+  nametag: ""
+  permissions:
+    - pocketmine
+    - shock
+...

@@ -1,0 +1,6 @@
+name: ShockNetwork
+author: ShockTeam
+version: 1.1.1
+api: 3.0.0
+main: network\NetworkLoader
+load: STARTUP
